@@ -10,5 +10,6 @@ function calculadoraPromedios(){
         option = confirm("Desea cargar otra nota?");
     }
     promedio = nota / i;
-    alert("El promedio de las notas es: " + promedio);
+    alert("El promedio total de las notas es: " + promedio);
+    document.write("<br> El promedio total de las notas es: " + promedio);
 }
